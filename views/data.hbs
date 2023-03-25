@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      #users{ font-family: Arial; width: 100%; } #users td, #users th{ border:
+      1px solid lightskyblue; padding: 8px; } #users tr:nth-child(even){
+      background-color: #f2f2f2; } #users tr:hover{ background-color:
+      lightskyblue; } #users th{ padding-top: 12px; padding-bottom: 12px;
+      text-align: left; background-color: black; color:white; }
+    </style>
+
+  </head>
+  <body>
+    <h1 style="text-align: center; padding: 5px">USER DATA</h1>
+
+    <table id="users">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>User ID</th>
+          <th>TITLE</th>
+          <th>BODY</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each response}}
+          <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.userId}}</td>
+            <td>{{this.title}}</td>
+            <td>{{this.body}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </body>
+</html>
