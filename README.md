@@ -29,6 +29,8 @@ Data saved can be viewed on MongoDB Compass.
 
 ## Screenshots
 
-![UI Screenshot]()
+![UI Screenshot](https://user-images.githubusercontent.com/69029547/227721701-70b93485-f653-4151-b54f-1b198daf2dd4.png)
 
-![MongoDB Compass Screenshot]()
+
+![MongoDB Compass Screenshot](https://user-images.githubusercontent.com/69029547/227721760-130430b5-8fdd-49e6-846d-bb84623eb20b.png)
+)
